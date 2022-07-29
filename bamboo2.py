@@ -1,5 +1,5 @@
 bamboos = [5,3,2,7,1]
-cuts = 5
+cuts = 4
 print("bamboos :", bamboos)
 print("cuts:"   ,cuts-1)
 for w in range(cuts):
