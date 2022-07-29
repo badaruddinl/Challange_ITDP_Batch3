@@ -7,3 +7,4 @@ print("Cycle : "+str(w))
     for y in range(bambu[x]):
       temp = temp+"-"
     print(temp)
+    bambu[x] = bambu[x]-1
