@@ -1,10 +1,15 @@
-bambu = [3,2,2] 
+bamboos = [3,2,2]
 cuts = 3
+print("bamboos :",bamboos)
 print("cuts:"   ,cuts-1)
-print("Cycle : "+str(w))
-  for x in range(len(bambu)):
+for w in range(cuts):
+  if w == 0:
+    print("initials:")
+  else:
+    print("cycle cuts: "+str(w))
+  for x in range(len(bamboos)):
     temp = "|"
-    for y in range(bambu[x]):
+    for y in range(bamboos[x]):
       temp = temp+"-"
     print(temp)
-    bambu[x] = bambu[x]-1
+    bamboos[x] = bamboos[x]-1
